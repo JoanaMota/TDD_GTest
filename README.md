@@ -123,7 +123,7 @@ int division(int a, int b)
 [       OK ] Functions.Division (0 ms)
 [----------] 1 test from Functions (0 ms total)
 ```
-7. Go back to add more tests to make sure that your functions accomplishes everything that is expected
+7. Go back to add more test cases to make sure that your functions accomplishes everything that is expected
 ```cpp
 EXPECT_EQ(division(4, 0), 0);
 ```
