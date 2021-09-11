@@ -8,8 +8,8 @@ Test Driven Development with Google Test
 ### Lets start with a simple C++ hello_world with CMake
 
 Steps:
-1. Create the [source]() file.
-2. Create the [`CMakeLists.txt`]() file. [A basic starting point for creating `CMakeLists.txt` files](https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html)
+1. Create the [source](https://github.com/JoanaMota/TDD_GTest/blob/main/Cpp/src/hello_world.cpp) file.
+2. Create the [`CMakeLists.txt`](https://github.com/JoanaMota/TDD_GTest/blob/main/Cpp/CMakeLists.txt) file. [A basic starting point for creating `CMakeLists.txt` files](https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html)
 3. Create a `build` folder.
 4. Inside the created build folder run `cmake ..` for generating the build files;
 5. Again inside the created build folder run `make` for building and linking;
@@ -37,12 +37,12 @@ I went for the [*Standalone CMake Project*](https://github.com/google/googletest
 - Followed the steps on the documentation.
 - Created a folder for the tests.
 - Added a `CMakeLists.txt` for the tests folder
-- Updated the main [`CMakeLists.txt`]() to include the tests:
+- Updated the main [`CMakeLists.txt`](https://github.com/JoanaMota/TDD_GTest/blob/main/Cpp/CMakeLists.txt) to include the tests:
 ```
 add_subdirectory(googletest)
 add_subdirectory(tests)
 ```
-- Filled the [`CMakeLists.txt`]() of the tests.
+- Filled the [`CMakeLists.txt`](https://github.com/JoanaMota/TDD_GTest/blob/main/Cpp/tests/CMakeLists.txt) of the tests.
 - Compiled again (with `make` inside the build folder).
 - The tests will be inside `build/tests`.
 
